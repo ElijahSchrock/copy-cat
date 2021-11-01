@@ -1,0 +1,75 @@
+.img-fluid {
+    width: 100%;
+    scale: 50%;
+}
+
+header {
+    text-align: center;
+    position: sticky;
+}
+
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.navbar.transparent.navbar-inverse .navbar-inner {
+    background: rgba(0,0,0,0.4);
+ }
+
+.navbar{
+    padding-left: 12px;
+    background: none;
+}
+
+
+.text {
+    position: relative;
+    z-index:1; 
+	font-size: 2em; 
+    text-align: center;
+    color: grey;
+    bottom: 650px;
+    left: 20px;
+}
+.lower-text {
+    position: relative;
+    z-index:1; 
+    text-align: center;
+    color: grey;
+    bottom: 650px;
+    left: 20px;
+}
+
+section {
+    text-align: center;
+    background-color: white;
+    position: sticky;
+    color: black;
+}
+
+a {
+    color: grey;
+}
+
+button {
+    position: relative;
+    bottom: 230px;
+    left: 500px;
+    z-index: 1;
+}
+
+.charger {
+    position: relative;
+    left: 460px;
+    bottom: 110px;
+    height: 600px;
+    width: 480px;
+}
+
+/* #accesory-btn{
+    position: absolute;
+    bottom: 520px;
+    left: 120px;
+    z-index: 1;
+} */
